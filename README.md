@@ -1,68 +1,76 @@
-# 📝 To-Do Web App
+# ✅ To-Do Web App
 
-An interactive task management application built using **HTML, CSS, and JavaScript**. It helps users organize daily tasks, manage priorities, and track task progress through a simple and intuitive web interface.
+An interactive task management application built using **HTML, CSS, and JavaScript**. It helps users add daily tasks, organise them into pending and completed lists, and keep their progress saved in the browser.
 
 ## ✨ Features
 
-* Add new tasks to the to-do list.
-* Mark tasks as completed or pending.
-* Edit and delete existing tasks.
-* Dynamic task updates using JavaScript.
-* Clean and user-friendly interface.
-* Responsive design for different screen sizes.
+- Add new tasks with an input field and an "Add Task" button (Enter key works too).
+- Newly added tasks appear immediately in the Pending Tasks list.
+- "Mark Complete" toggle moves a task to the Completed Tasks list, and "Mark Pending" moves it back.
+- Edit tasks inline using the Edit button or by double-clicking the task text.
+- Delete tasks permanently from either list.
+- Task count indicators ("X pending" and "Y completed") above each list.
+- Timestamps showing when a task was added and when it was completed.
+- Tasks are saved with localStorage, so they stay after a page refresh.
+- Friendly empty-state messages for both lists.
+- Empty tasks are blocked with an error message.
+- Filters: All, Pending, and Completed.
+- Optional due date, with overdue tasks highlighted in red.
+- "Tasks left" counter and a "Clear completed" button.
+- Dark and light mode, remembered after refresh.
+- Responsive design for different screen sizes.
 
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
-| :--- | :--- |
-| **HTML5** | Structure and layout |
-| **CSS3** | Styling and responsive design |
-| **JavaScript** | Task management and DOM manipulation |
+|------------|---------|
+| HTML5 | Structure and layout |
+| CSS3 | Styling, CSS variables, and responsive design |
+| JavaScript | Task management and DOM manipulation |
+| localStorage | Saving tasks and the theme in the browser |
 
 ## 📁 Project Structure
 
-```text
+```
 To-Do-Web-App/
 │
-├── src/
-│   ├── assets/
-│   │   └── images/
-│   ├── styles/
-│   │   └── style.css
-│   └── scripts/
-│       └── app.js
 ├── index.html
-└── README.md
+├── style.css
+└── script.js
+```
 
-🚀 Installation & Live Demo
+## Installation
+
 Clone the repository using the following command:
 
-Bash
-git clone [https://github.com/shiprasonal/To-Do-Web-App.git](https://github.com/shiprasonal/To-Do-Web-App.git)
-Navigate to the project directory:
+```
+git clone https://github.com/shiprasonal/To-Do-Web-App.git
+```
 
-Bash
-cd To-Do-Web-App
-Open index.html directly in your browser or run it using Live Server.
+Open the cloned project folder and launch `index.html` in your web browser.
 
-Repository Link: To-Do-Web-App Repository
+**Repository Link:** [To-Do Web App](https://github.com/shiprasonal/To-Do-Web-App)
 
-Live Demo: To-Do Web App Live
+## 📚 Sources
 
-💡 What I Learned
-LocalStorage integration for persistent data storage across browser sessions.
+- DOM manipulation: JavaScript to-do list tutorials.
+- Saving data: MDN guide on localStorage.
 
-Advanced DOM manipulation techniques for dynamic list updating.
+## 💡 What I Learned
 
-Event handling and delegation for smoother user interactions.
+- Working with JavaScript DOM manipulation.
+- Handling user interactions and events.
+- Managing and updating tasks dynamically.
+- Saving and loading data with localStorage.
+- Creating structured, responsive layouts using HTML and CSS.
+- Adding a dark and light theme with CSS variables.
 
-Modular project structuring and styling with CSS flexbox/grid.
+## 👩‍💻 Author
 
-Managing application state for active, completed, and pending tasks.
+**Shipra Sonal**
 
-👩‍💻 Author
-Shipra Sonal
+[GitHub](https://github.com/shiprasonal) · [LinkedIn](https://www.linkedin.com/in/shipra-sonal-554a50258)
 
-GitHub · LinkedIn
+---
 
 ⭐ If you find this project interesting, feel free to explore the repository!

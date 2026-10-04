@@ -1,60 +1,68 @@
 # 📝 To-Do Web App
 
-An interactive task management application built using **HTML, CSS, and JavaScript**[cite: 1]. It helps users organize daily tasks, manage priorities, and track task progress through a simple and intuitive web interface[cite: 1].
+An interactive task management application built using **HTML, CSS, and JavaScript**. It helps users organize daily tasks, manage priorities, and track task progress through a simple and intuitive web interface.
 
 ## ✨ Features
 
-* Add new tasks to the to-do list[cite: 1].
-* Mark tasks as completed or pending[cite: 1].
-* Edit and delete existing tasks[cite: 1].
-* Dynamic task updates using JavaScript[cite: 1].
-* Clean and user-friendly interface[cite: 1].
-* Responsive design for different screen sizes[cite: 1].
+* Add new tasks to the to-do list.
+* Mark tasks as completed or pending.
+* Edit and delete existing tasks.
+* Dynamic task updates using JavaScript.
+* Clean and user-friendly interface.
+* Responsive design for different screen sizes.
 
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
 | :--- | :--- |
-| **HTML5** | Structure and layout[cite: 1, 2] |
-| **CSS3** | Styling and responsive design[cite: 1, 2] |
-| **JavaScript** | Task management and DOM manipulation[cite: 1, 2] |
+| **HTML5** | Structure and layout |
+| **CSS3** | Styling and responsive design |
+| **JavaScript** | Task management and DOM manipulation |
 
 ## 📁 Project Structure
 
 ```text
 To-Do-Web-App/
 │
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── styles/
+│   │   └── style.css
+│   └── scripts/
+│       └── app.js
 ├── index.html
-├── style.css
-└── script.js
-```[cite: 2, 3]
+└── README.md
 
-## 🚀 Installation
+🚀 Installation & Live Demo
+Clone the repository using the following command:
 
-Clone the repository using the following command[cite: 2, 3, 4]:
-
-```bash
+Bash
 git clone [https://github.com/shiprasonal/To-Do-Web-App.git](https://github.com/shiprasonal/To-Do-Web-App.git)
-```[cite: 2, 3, 4]
+Navigate to the project directory:
 
-Open the cloned project folder and launch `index.html` in your web browser[cite: 2, 3, 4].
+Bash
+cd To-Do-Web-App
+Open index.html directly in your browser or run it using Live Server.
 
-**Repository Link:** [To-Do-Web-App](https://github.com/shiprasonal/To-Do-Web-App)[cite: 3, 4]
+Repository Link: To-Do-Web-App Repository
 
-## 💡 What I Learned
+Live Demo: To-Do Web App Live
 
-* Working with JavaScript DOM manipulation[cite: 3, 4].
-* Handling user interactions and events[cite: 3, 4].
-* Managing and updating tasks dynamically[cite: 3, 4].
-* Creating structured layouts using HTML and CSS[cite: 3, 4].
-* Building interactive and responsive web interfaces[cite: 3, 4].
+💡 What I Learned
+LocalStorage integration for persistent data storage across browser sessions.
 
-## 👩‍💻 Author
+Advanced DOM manipulation techniques for dynamic list updating.
 
-**Shipra Sonal**[cite: 1, 4]
+Event handling and delegation for smoother user interactions.
 
-[GitHub](https://github.com/shiprasonal) · [LinkedIn](https://linkedin.com)[cite: 4]
+Modular project structuring and styling with CSS flexbox/grid.
 
----
+Managing application state for active, completed, and pending tasks.
 
-⭐ If you find this project interesting, feel free to explore the repository![cite: 4]
+👩‍💻 Author
+Shipra Sonal
+
+GitHub · LinkedIn
+
+⭐ If you find this project interesting, feel free to explore the repository!
